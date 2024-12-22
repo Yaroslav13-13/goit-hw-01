@@ -1,5 +1,9 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #2e2f42;
+}
 span {
-  color: blue;
+  color: #4d5ae5;
 }
 .logo {
   color: black;
