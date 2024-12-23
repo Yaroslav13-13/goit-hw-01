@@ -58,6 +58,35 @@ span {
 
 /* -----------SECTION-1----------------- */
 
-.section-title {
+.section-one {
   background-color: #2e2f42;
+}
+
+.section-one-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07143;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+}
+
+/* _________BUTTON_________ */
+
+.section-one-button {
+  background-color: #4d5ae5;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  cursor: pointer;
+}
+
+.section-one-button:hover {
+  color: #404bbf;
+}
+
+.section-one-button:focus {
+  color: #404bbf;
 }
