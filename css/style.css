@@ -13,6 +13,37 @@ span {
   color: #4d5ae5;
 }
 
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  width: 1440px;
+  height: 72px;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+}
+
+.container-header {
+  /* width: 1440px;
+  height: 72px;
+  display: flex; */
+}
+
+.container-hedear-list {
+}
+
+.heder-menu-item {
+  /* display: inline-block;
+  position: absolute;
+  right: auto; */
+}
+
 .header-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -21,6 +52,18 @@ span {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;
+  margin-right: 76px;
+  /* position: absolute;
+  padding: 24px 0 24px 156px; */
+  /* padding-top: 24px;
+  padding-left: 156px;
+  padding-bottom: 24px;
+  padding-right: 0; */
+}
+
+.heder-menu-list {
+  display: flex;
+  gap: 40px;
 }
 
 .heder-menu-link {
@@ -30,6 +73,7 @@ span {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px 0;
 }
 
 .heder-menu-link:hover {
@@ -42,6 +86,15 @@ span {
 
 .heder-address {
   font-style: normal;
+}
+
+.heder-contacts-list {
+  display: flex;
+  gap: 40px;
+  margin-left: 332px;
+}
+
+.heder-contacts-item {
 }
 
 .heder-contacts-link {
