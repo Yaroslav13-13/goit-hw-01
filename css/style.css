@@ -30,18 +30,12 @@ span {
 }
 
 .container-header {
-  /* width: 1440px;
-  height: 72px;
-  display: flex; */
 }
 
 .container-hedear-list {
 }
 
 .heder-menu-item {
-  /* display: inline-block;
-  position: absolute;
-  right: auto; */
 }
 
 .header-logo {
@@ -53,12 +47,6 @@ span {
   text-transform: uppercase;
   color: #2e2f42;
   margin-right: 76px;
-  /* position: absolute;
-  padding: 24px 0 24px 156px; */
-  /* padding-top: 24px;
-  padding-left: 156px;
-  padding-bottom: 24px;
-  padding-right: 0; */
 }
 
 .heder-menu-list {
