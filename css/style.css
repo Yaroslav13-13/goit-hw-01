@@ -16,20 +16,21 @@ span {
 .header {
   border-bottom: 1px solid #e7e9fc;
 }
+
 .header-nav {
   display: flex;
   align-items: center;
 }
 
 .container {
-  width: 1440px;
-  height: 72px;
   margin: 0 auto;
   padding: 0 15px;
   display: flex;
 }
 
 .container-header {
+  width: 1440px;
+  height: 72px;
 }
 
 .container-hedear-list {
@@ -106,25 +107,39 @@ span {
   background-color: #2e2f42;
 }
 
+.container-section-one {
+  display: flex;
+  width: 1440px;
+  height: 600px;
+  margin: auto;
+}
+
 .section-one-title {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07143;
   letter-spacing: 0.02em;
-  text-align: center;
+  /* text-align: center; */
   color: #fff;
+  padding: 188px 0;
+  max-width: 496px;
 }
 
 /* _________BUTTON_________ */
 
 .section-one-button {
   background-color: #4d5ae5;
+  border-radius: 4px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
   cursor: pointer;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
 }
 
 .section-one-button:hover {
