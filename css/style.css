@@ -105,6 +105,7 @@ span {
 
 .section-one {
   background-color: #2e2f42;
+  position: relative;
 }
 
 .container-section-one {
@@ -143,6 +144,9 @@ span {
   min-width: 169px;
   height: 56px;
   border: none;
+  position: absolute;
+  top: 60%;
+  right: 45%;
 }
 
 .section-one-button:hover {
